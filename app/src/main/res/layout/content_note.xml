@@ -29,7 +29,8 @@
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="@+id/spinner_courses"
         app:layout_constraintStart_toStartOf="@+id/spinner_courses"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_courses" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_courses"
+        android:autofillHints="miles" />
 
     <EditText
         android:id="@+id/text_note_text"
@@ -41,5 +42,6 @@
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="@+id/text_note_title"
         app:layout_constraintStart_toStartOf="@+id/text_note_title"
-        app:layout_constraintTop_toBottomOf="@+id/text_note_title" />
+        app:layout_constraintTop_toBottomOf="@+id/text_note_title"
+        android:autofillHints="movers" />
 </androidx.constraintlayout.widget.ConstraintLayout>
